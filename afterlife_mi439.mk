@@ -22,6 +22,11 @@ $(call inherit-product, device/xiaomi/mi439/device.mk)
 # Inherit from common syberia configuration
 $(call inherit-product, vendor/afterlife/common.mk)
 
+# Inherit some common afterlife stuff.
+AFTERLIFE_VERSION_APPEND_TIME_OF_DAY := true
+AFTERLIFE_MAINTAINER := FARHAN•AFK
+BUILD_AOSP_CAMERA := false
+
 PRODUCT_NAME := afterlife_mi439
 PRODUCT_DEVICE := mi439
 PRODUCT_BRAND := Xiaomi
@@ -38,3 +43,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Xiaomi/olive/olive:10/QKQ1.191014.001/V12.5.1.0.QCNMIXM:user/release-keys"
+
+# Blur
+TARGET_SUPPORTS_BLUR := true
+
+# Pixel Stuff
+USE_PIXEL_CHARGING := true
+
+# Quick Tap
+TARGET_SUPPORTS_QUICK_TAP := true
