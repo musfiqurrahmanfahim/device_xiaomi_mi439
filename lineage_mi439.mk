@@ -31,8 +31,8 @@ PRODUCT_MANUFACTURER := Xiaomi
 # Signing
 -include vendor/lineage-priv/keys/keys.mk
 
-
-
+# RisingOS stuff 
+RISING_MAINTAINER=FARHAN•AFK
 WITH_GMS := true
 TARGET_CORE_GMS := true
 PRODUCT_NO_CAMERA := false
