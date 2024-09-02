@@ -20,9 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mi439/device.mk)
 
 # Inherit from common syberia configuration
-$(call inherit-product, vendor/syberia/common.mk)
+$(call inherit-product, vendor/afterlife/common.mk)
 
-PRODUCT_NAME := syberia_mi439
+PRODUCT_NAME := afterlife_mi439
 PRODUCT_DEVICE := mi439
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI SDM439
