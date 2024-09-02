@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage.mi439.mk
+    $(LOCAL_DIR)/lineage_mi439.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_mi439-user \
