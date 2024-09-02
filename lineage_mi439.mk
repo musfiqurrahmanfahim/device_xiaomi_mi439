@@ -28,6 +28,15 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 
+# Signing
+-include vendor/lineage-priv/keys/keys.mk
+
+
+
+WITH_GMS := true
+TARGET_CORE_GMS := true
+PRODUCT_NO_CAMERA := false
+
 # Boot animation resolution.
 TARGET_BOOT_ANIMATION_RES := 720
 
