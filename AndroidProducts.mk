@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_mi439.mk
+    $(LOCAL_DIR)/afterlife_mi439.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_mi439-user \
-    syberia_mi439-userdebug \
-    syberia_mi439-eng
+    afterlife_mi439-user \
+    afterlife_mi439-userdebug \
+    afterlife_mi439-eng
