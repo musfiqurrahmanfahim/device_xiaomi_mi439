@@ -26,6 +26,7 @@ $(call inherit-product, vendor/afterlife/common.mk)
 AFTERLIFE_VERSION_APPEND_TIME_OF_DAY := true
 AFTERLIFE_MAINTAINER := FARHAN•AFK
 BUILD_AOSP_CAMERA := false
+TARGET_FACE_UNLOCK_SUPPORTED := false
 
 PRODUCT_NAME := afterlife_mi439
 PRODUCT_DEVICE := mi439
