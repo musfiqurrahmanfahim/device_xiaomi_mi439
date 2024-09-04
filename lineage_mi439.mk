@@ -33,8 +33,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 # RisingOS stuff 
 RISING_MAINTAINER=FARHAN•AFK
-WITH_GMS := true
-TARGET_CORE_GMS := true
 PRODUCT_NO_CAMERA := false
 
 # Boot animation resolution.
