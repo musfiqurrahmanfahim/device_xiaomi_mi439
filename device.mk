@@ -429,6 +429,9 @@ $(call inherit-product, hardware/mithorium-4.19/mithorium_qcom_hals.mk)
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/mi439/mi439-vendor.mk)
 
+# VIPERFX 
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # EXTRA: MiuiCamera
 ifneq ($(wildcard vendor/miuicamera/config.mk),)
 $(call inherit-product, vendor/miuicamera/config.mk)
