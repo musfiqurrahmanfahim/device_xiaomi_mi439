@@ -20,16 +20,24 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mi439/device.mk)
 
 # Inherit from common AOSP configuration
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixelstar/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_mi439
+PRODUCT_NAME := pixelstar_mi439
 PRODUCT_DEVICE := mi439
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI SDM439
 PRODUCT_MANUFACTURER := Xiaomi
 
-# Boot animation resolution.
+# Specific flags
+TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+USE_PIXEL_CHARGER := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
